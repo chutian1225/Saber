@@ -1,0 +1,138 @@
+.banner{
+    position: relative;
+    min-width: 1032px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(26,26,26,.1);
+    background:#fff; 
+    background-clip: content-box;
+}
+.banner-inner{
+    position: relative;
+    width: 1050px;
+    height: 52px;
+    padding: 0 16px;
+    margin: 0 auto;
+    align-items: center;
+}
+.logo{
+    vertical-align: middle;
+}
+a{
+    color: inherit;
+    display: inline-block;
+}
+.banner-explain{
+    display: inline-block;
+    padding: 15px 15px;
+    font-size: 15px;
+    color: #8590a6;
+
+}
+.banner-explain.alone{
+    color: #000;
+    margin-left: 15px;
+}
+.banner-explain.team:hover{
+    color: skyblue;
+}
+.search-panel{
+    display: inline-block;
+    position: relative;
+}
+
+.search{
+    display: inline-block;
+    -webkit-appearance: none;
+    outline: none;
+    width: 286px;
+    height: 34px;
+    left: 15px;
+    border: 1px solid #8590a6;
+    background-color: #f6f6f6; 
+    padding: 0 8px;
+    border-radius: 3px;
+    position: relative;
+
+}
+
+.button{
+    display: inline-block;
+    background-color:#0084ff;
+    padding: 7px 16px;
+    color: #fff;
+    border:1px solid #8590a6;
+    border-radius: 3px;
+    position: relative;
+    left: 28px;
+}
+.search:focus{
+    width: 380px;
+    border-color: #000;
+    background-color: #fff;
+
+}
+.search:focus+.button{
+    display: none;
+}
+.button:hover{
+    background-color: blue;
+}
+.iconfont.icon-fangdajing{
+    font-size: 22px;
+    color: #8590a6;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    right: 0px;
+    
+
+}
+.search:focus+.iconfont.icon-fangdajing{
+    color: #0084ff;
+}
+.iconfont.icon-lingdang1f{
+    font-size: 25px;
+    color: #8590a6;
+    float: right;
+    padding: 15px 15px;
+
+}
+.iconfont.icon-weixin{
+    font-size: 25px;
+    color: #8590a6;
+    margin-right: 40px;
+    float: right;
+    padding: 15px 15px;
+
+}
+.head{
+   
+    border: 1px solid #8590a6;
+    border-radius: 5px;
+    margin-right: 40px;
+    margin-top: 8px;
+    float: right;
+    
+}
+.head-photo{
+    vertical-align: middle;
+}
+.banner-right{
+    width: 300px;
+    margin-right: 150px;
+    margin-top: 15px;
+    float: right;
+
+
+}
+.banner-left{
+    width: 733px;
+    margin-left: 150px;
+    margin-top: 15px;
+}
+.GlobalSideBar{
+    width: 296px;
+    height: 100px;
+    box-shadow: 0 1px 3px rgba(26,26,26,.1);
+
+}
