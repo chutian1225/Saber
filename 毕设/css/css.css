@@ -1,0 +1,244 @@
+
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+   
+}
+header{
+    height: 100%;
+    background: url(http://p6ay4qlsq.bkt.clouddn.com/18-4-7/81341046.jpg) center center no-repeat;
+    background-size: cover;
+}
+.navigation{
+   background-color: rgba(36,33,46,0.48);
+   width: 100%;
+   
+}
+.content-out{
+    display: inline-block;
+    position: relative;
+}
+.navigation-content{
+    margin-left: 100px;
+    min-width: 1000px;
+    position: relative;
+    
+}
+.content{
+    padding: 16px 16px;
+    color: #fff;
+
+}
+.iconfont.icon-icon--{
+    font-size: 16px;
+    color:rgb(88, 7, 14);
+}
+.content-oneself{
+    color: #fb7299;
+    padding: 16px 16px;
+
+}
+.content:hover{
+    background-color: #25263d;
+}
+.content-oneself:hover{
+    color: #fff;
+    background-color: #25263d;
+}
+.content-list{
+    position: absolute;
+    background-color: #fff;
+    width: 155px;
+    border:1px solid #646c7a;
+    border-radius:0 0 5px 5px;
+    display: none;
+
+}
+.list-cont{
+    padding: 15px 15px;
+    color: #646c7a;
+    display: block;
+}
+.list-cont:hover{
+    background-color: #25263d;
+    color: #fb7299;
+}
+.content-out:hover .content-list{
+    display: block;
+}
+.content-search{
+    display: inline-block;
+    position: relative;
+}
+.search{
+    display: inline-block;
+    background-color: rgba(36,33,46,0.48);
+    outline: none;
+    width: 199px;
+    padding: 8px 25px 8px 15px;
+    border: 1px solid #363346;
+    border-radius: 15px;
+
+}
+.iconfont.icon-fangdajing{
+    display: inline-block;
+    color: #646c7a;
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    top: 50%;
+    transform:translateY(-50%);
+    right: 5px;
+}
+.search:focus{
+    background-color: #fff;
+}
+.content-image{
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid rgba(36,33,46,0.48);
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 100px;
+    margin-right: 15px;
+}
+.photo{
+    vertical-align: middle;
+}
+.content-notice{
+    position: absolute;
+    z-index: 1;
+    width: 260px;
+    border:1px solid #646c7a;
+    border-radius:0 0 5px 5px;
+    color: #fff;
+    background-color: #fff;
+    box-shadow: -2px -3px 5px 0px #0A090A;
+    left: -55px;
+    display: none;
+
+}
+.notice-cont{
+    padding: 15px 12px;
+    color: #646c7a;
+    display: block;
+    
+}
+.notice-more{
+    display: block;
+    background-color:#fafafa;
+    color: #646c7a;
+    padding: 15px 15px;
+    text-align: center;
+}
+.sign{
+    color: #fb7299;
+    font-weight: bold;
+}
+.content-out:hover .content-notice{
+    display: block;
+}
+.content-release{
+    display: inline-block;
+    background-color: #fc73ad;
+    position: absolute;
+    right: 100px;
+    border-radius: 0 0 5px 5px;
+    
+}
+.release{
+    padding: 20px 25px;
+    color: #fff;
+}
+.release-etailed{
+    border: 1px solid #646c7a;
+    z-index: 1;
+    border-radius: 0 0 5px 5px;
+    background-color: #fff;
+    position: absolute;
+    width:200px;
+    right: 0px;
+    top: 53px;
+    display: none;
+
+}
+.release-item{
+    float: left;
+    color: #fb7299;
+
+}
+.iconfont.icon-huaban{
+    color: #fb7299;
+    font-size: 30px;
+    display: block;
+}
+.iconfont.icon-xiangji{
+    color: #fb7299;
+    font-size: 30px;
+    display: block;
+}
+.iconfont.icon-yifu{
+    color: #fb7299;
+    font-size: 30px;
+    display: block;
+}
+.release-list{
+    padding: 15px 15px;
+    display: inline-block;
+    color: #fb7299;
+}
+.content-release:hover .release-etailed{
+    display: block;
+}
+.release-list:hover{
+    background-color: #f9f8fb;
+}
+.catalog{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.btn-friends{
+    background-color: rgba(36,33,46,0.32);
+    border: solid 1px rgba(255,255,255, 0.4);
+    transform: matrix3d(1, 0, 0, 0.001, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    display: inline-block;
+    padding: 20px 60px;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 100px;
+}
+.btn-other{
+    background-color: rgba(36,33,46,0.32);
+    border: solid 1px rgba(255,255,255, 0.4);
+    transform: matrix3d(1, 0, 0, -0.001, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    display: inline-block;
+    padding: 20px 60px;
+    color: #fff;
+    font-size: 20px;
+}
+.btn-friends:hover{
+    background-color:  rgba(255,255,255, 0.6);
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+
+}
+.btn-other:hover{
+    background-color:  rgba(255,255,255, 0.6);
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+}
+
+
+.logo{
+    display: inline-block;
+    float: left;
+    vertical-align: middle;
+}
+.logo-image{
+    vertical-align: middle;
+}
+
+
